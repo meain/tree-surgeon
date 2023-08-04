@@ -19,6 +19,7 @@ but should have more here soon.*
 
 Split and join arguments and parameters in function calls and definitions.
 
+![](https://user-images.githubusercontent.com/14259816/258302386-d479cd0d-aa3e-4a2f-8f89-2959041a08c8.webm)
 
 ##### Usage
 
