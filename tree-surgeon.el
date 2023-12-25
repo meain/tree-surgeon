@@ -13,6 +13,7 @@
 
 (require 'treesit)
 (require 'tree-surgeon-split-join)
+(require 'tree-surgeon-go-error)
 
 (defgroup tree-surgeon nil
   "A collection of code manipulation utils using tree-sitter."

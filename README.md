@@ -12,14 +12,20 @@ A collection of code manipulation utils using tree-sitter.
 ## Features
 
 *I am still porting over things from elisp-tree-sitter(in my personal
-config) to builtin treesit module. As of now, we just have split-join,
-but should have more here soon.*
+config) to builtin treesit module. As of now, we just have split-join
+and go-errors but should have more here soon.*
 
 ### Split join
 
 Split and join arguments and parameters in function calls and definitions.
 
 ![](https://user-images.githubusercontent.com/14259816/258302386-d479cd0d-aa3e-4a2f-8f89-2959041a08c8.webm)
+
+### Go errors
+
+Automatically generate go return statements for errors. Call
+`tree-surgeon-go-errors` to generate the return statements with an `if
+err != nil` check.
 
 ##### Usage
 
