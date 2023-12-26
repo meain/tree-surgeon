@@ -21,16 +21,18 @@ Split and join arguments and parameters in function calls and definitions.
 
 ![](https://user-images.githubusercontent.com/14259816/258302386-d479cd0d-aa3e-4a2f-8f89-2959041a08c8.webm)
 
+``` emacs-lisp
+M-x tree-surgeon-split-join
+```
+
 ### Go errors
 
 Automatically generate go return statements for errors. Call
 `tree-surgeon-go-errors` to generate the return statements with an `if
 err != nil` check.
 
-##### Usage
-
 ``` emacs-lisp
-(tree-surgeon-split-join)
+M-x tree-surgeon-go-errors
 ```
 
 ##### Customization
