@@ -25,6 +25,10 @@ Split and join arguments and parameters in function calls and definitions.
 M-x tree-surgeon-split-join
 ```
 
+##### Customization
+
+You can add or modify the language specific settings by modifying `tree-surgeon-split-join-settings`.
+
 ### Go errors
 
 Automatically generate go return statements for errors. Call
@@ -57,7 +61,3 @@ them to create imenu entries.
                                                         "(pair key: (string)) @body"
                                                         "key: (string (string_content) @key)"))))
 ```
-
-##### Customization
-
-You can add or modify the language specific settings by modifying `tree-surgeon-split-join-settings`.
