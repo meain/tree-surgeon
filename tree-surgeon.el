@@ -14,6 +14,7 @@
 (require 'treesit)
 (require 'tree-surgeon-split-join)
 (require 'tree-surgeon-go-error)
+(require 'tree-surgeon-imenu-utils)
 
 (defgroup tree-surgeon nil
   "A collection of code manipulation utils using tree-sitter."
